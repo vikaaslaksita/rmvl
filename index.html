@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CCB form.css">
+    <title>Form Design</title>
+</head>
+<body>
+
+<div class="banner image">
+<center> 
+<marquee scrollamount="5" direction="right"> 
+<!-- <img src="blog-wp-login.png" width="10" height="100">  -->
+<h1 style="color: blue">  Welcome to CCB Wing  </h1> 
+</marquee>
+</center>
+</body>
+
+<title>Document</title>
+
+<h1 style="color: red"> INTERROGATION REPORT OF FOREIGNER ACCUSED</h1>
+<p style="color: green;"> CONTACT US FOR ANY QUERY :<a href="C:\Users\Naveen kumar\OneDrive\Desktop\HTML\Mahadev\Profile.html">
+  MADHAVAN (Coder)</a></p>
+    
+</div>
+<form class="container form">
+<div class="image-container">
+<div class="hero">
+<div class="card">
+<H3>Accused Photo</H3>
+<img src="Image Icon.png" id="profile-pic" >
+<input type="file" accept="image/jpeg, image/png, image/jpg" id="input-file">
+
+<script>
+    let profilePic = document.getElementById("profile-pic");
+    let inputFile = document.getElementById("input-file");
+
+    inputFile.onchange=function(){
+        profilePic.src =URL.createObjectURL(inputFile.files[0]);
+    }
+
+    
+</script>
+
+
+<!-- time Purpose -->
+<body>
+    <div>
+    <h2> <span id="datetime"></span> </h2>
+    </div>
+    <script>
+      // create a function to update the date and time
+      function updateDateTime() {
+        // create a new `Date` object
+        const now = new Date();
+
+        // get the current date and time as a string
+        const currentDateTime = now.toLocaleString();
+
+        // update the `textContent` property of the `span` element with the `id` of `datetime`
+        document.querySelector('#datetime').textContent = currentDateTime;
+      }
+
+      // call the `updateDateTime` function every second
+      setInterval(updateDateTime, 1000);
+    </script>
+
+</div>
+</div>
+
+
+<div class="flex2">
+
+<div class="one">
+<label for="name">Accused Name</label><br/>
+<input type="text" id="name" placeholder="Accused name and Alias" required>
+</div>
+
+<div class="one">
+<label for="name">Local & Native Address Details</label><br/>
+<input type="text" id="name" placeholder="Address" required>
+</div>
+
+<div class="one">
+    <label for="name">Crime Details</label><br/>
+    <input type="text" id="name" placeholder="Crime Details" required>
+    </div>
+
+</div>
+
+<div class="flex2">
+
+<div class="one">
+<label for="email">Previous Case Details</label><br/>
+<input type="text" id="email" placeholder=" Details of Any previous Case Details" required>
+</div>
+
+<div class="one">
+<label for="mobile">Associates, Main & Sub Peddler Details</label><br/>
+<input type="text" id="name" placeholder="Sub peddler Detail's" required>
+</div>
+
+<div class="one">
+<label for="mobile">Advocate Detail's</label><br/>
+<input type="text" id="name" placeholder="Advocate Detail's" required>
+</div>
+
+</div>
+
+<div class="flex2">
+
+<div class="one">
+<label for="mobile">Surety Detail's</label><br/>
+<input type="text" id="name" placeholder="Surety Detail's" required>
+</div>
+
+<div class="one">
+<label for="mobile">Parent's Detail's </label><br/>
+<input type="text" id="name" placeholder="Parent's Detail's" required>
+</div>
+
+<div class="one">
+<label for="mobile">Spouse Detail's </label><br/>
+<input type="text" id="name" placeholder="Spouse Detail's" required>
+</div>
+
+</div>
+
+<div class="flex2">
+
+<div class="one">
+<label for="mobile">Details of Sibling's</label><br/>
+<input type="text" id="name" placeholder="Sibling Detail's" required>
+</div>
+    
+<div class="one">
+<label for="mobile">Local Indian Friend's </label><br/>
+<input type="text" id="name" placeholder="India Friend's" required>
+</div>
+        
+</div>
+
+
+<div class="flex2">
+
+    <div class="one">
+    <label for="mobile">Caste </label><br/>
+    <input type="text" id="name" placeholder="Caste" required>
+    </div>
+        
+    <div class="one">
+    <label for="text">Religion </label><br/>
+    <input type="text" id="name" placeholder="Religion" required>
+    </div>
+        
+    <div class="one">
+    <label for="text">Nationality </label><br/>
+    <input type="text" id="name" placeholder="Nationality" required>
+    </div>
+
+    </div>
+
+    <div class="flex2">
+
+        <div class="one">
+        <label for="mobile"> Age </label><br/>
+        <input type="text" id="name" placeholder="Age" required>
+        </div>
+            
+        <div class="one">
+        <label for="text"> Sex </label><br/>
+        <input type="text" id="name" placeholder="Sex" required>
+        </div>
+          
+        <div class="one">
+        <label for="text"> Physical identification Marks of Accused </label><br/>
+        <input type="text" id="name" placeholder="Identification" required>
+        </div>
+
+        </div>
+
+        <div class="flex2">
+
+            <div class="one">
+            <label for="text"> Languages Known </label><br/>
+            <input type="text" id="name" placeholder="Read, Write, Speak" required>
+            </div>
+                
+            <div class="one">
+            <label for="text"> Educational Qualification </label><br/>
+            <input type="text" id="name" placeholder="Education" required>
+            </div>
+              
+            <div class="one">
+            <label for="text"> Occupation Details </label><br/>
+            <input type="text" id="name" placeholder="Occupation" required>
+            </div>
+    
+            </div>
+
+
+<div class="flex2">
+
+<div class="one">
+<label for="text"> Mobile IMEI No </label><br/>
+<input type="text" id="name" placeholder="IMEI No" required>
+</div>
+                    
+<div class="one">
+<label for="text"> Sim Numbers </label><br/>
+<input type="text" id="name" placeholder="Sim Number's" required>
+</div>
+                  
+<div class="one">
+<label for="text"> Purchasing Shop Detail's </label><br/>
+<input type="text" id="name" placeholder="Shop Detail's" required>
+</div>
+        
+</div>
+
+<div class="flex">
+    <label for="bio">Enter other Electronic Gadgets</label><br/>
+    <textarea name="bio" id="bio" rows="5" placeholder="Details of other electronic gadgets owned Here..." required></textarea>
+    </div>
+    
+<div class="flex">
+<label for="bio">E-Mail id's </label><br/>
+<textarea name="bio" id="bio" rows="5" placeholder="E-Mail id's and other Social Media Profile Detail's" required></textarea>
+</div>
+
+
+<div class="flex2">
+
+    <div class="one">
+    <label for="text"> PAN Card </label><br/>
+    <input type="text" id="name" placeholder="PAN Card Detail's" required>
+    </div>
+                        
+    <div class="one">
+    <label for="text"> Adar Card Number </label><br/>
+    <input type="text" id="name" placeholder="Adar Card Number" required>
+    </div>
+                      
+    <div class="one">
+    <label for="text"> Other Any Govt issued Id </label><br/>
+    <input type="text" id="name" placeholder="Other Id Detail's" required>
+    </div>
+            
+    </div>
+    
+
+    <div class="flex2">
+
+        <div class="one">
+        <label for="text"> Passport Detail's </label><br/>
+        <input type="text" id="name" placeholder="Passport Detail's" required>
+        </div>
+                            
+        <div class="one">
+        <label for="text"> Visa Detail's </label><br/>
+        <input type="text" id="name" placeholder="Visa Detail's" required>
+        </div>
+                          
+        <div class="one">
+        <label for="text"> Driving License </label><br/>
+        <input type="text" id="name" placeholder="Driving License Detail's" required>
+        </div>
+                
+        </div>
+        
+
+        <div class="flex2">
+
+            <div class="one">
+            <label for="text"> Regular Visit Worshping </label><br/>
+            <input type="text" id="name" placeholder="Church, Mosque, Temple" required>
+            </div>
+                                
+            <div class="one">
+            <label for="text"> Regular Visit Restaurant's </label><br/>
+            <input type="text" id="name" placeholder="Restaurant's Name" required>
+            </div>
+                              
+            <div class="one">
+            <label for="text"> Hideouts </label><br/>
+            <input type="text" id="name" placeholder="Hideouts Places" required>
+            </div>
+                    
+            </div>
+
+
+<div class="flex2">
+
+<div class="one">
+<label for="text"> Account Number </label><br/>
+<input type="text" id="name" placeholder="Bank Account Number" required>
+</div>
+                                    
+<div class="one">
+<label for="text"> Credit Card Number </label><br/>
+<input type="text" id="name" placeholder="Credit Card Number" required>
+</div>
+                                  
+<div class="one">
+<label for="text"> Debit Card Number </label><br/>
+<input type="text" id="name" placeholder="Debit Card Number" required>
+</div>
+</div>
+
+
+<div class="flex2">
+
+    <div class="one">
+    <label for="text"> Other Investment  </label><br/>
+    <input type="text" id="name" placeholder="Chit fund, FD, MF, insurance" required>
+    </div>
+                                        
+    <div class="one">
+    <label for="text"> Other Source of income </label><br/>
+    <input type="text" id="name" placeholder="Other income Source" required>
+    </div>
+                                      
+    <div class="one">
+    <label for="text"> UPI ID </label><br/>
+    <input type="text" id="name" placeholder="UPI ID Detail's" required>
+    </div>
+    </div>
+
+
+    <div class="flex2">
+
+        <div class="one">
+        <label for="text"> Owned Vehicle  </label><br/>
+        <input type="text" id="name" placeholder="Owned Vehicle Detail's" required>
+        </div>
+                                            
+        <div class="one">
+        <label for="text"> Moveble Propeties </label><br/>
+        <input type="text" id="name" placeholder="Moveble Propeties Detail" required>
+        </div>
+                                          
+        <div class="one">
+        <label for="text"> Immovable Propeties Detail </label><br/>
+        <input type="text" id="name" placeholder="Immovable Propeties Detail" required>
+        </div>
+        </div>
+
+<div class="flex">
+<label for="bio">Modus Operandi Detail's</label><br/>
+<textarea name="bio" id="bio" rows="5" placeholder="Modus Operandi, Whether operates individually, Or in Gang" required></textarea>
+</div>
+            
+<div class="flex">
+<label for="bio">Local gang or Inter-City Gnag Detail's </label><br/>
+<textarea name="bio" id="bio" rows="5" placeholder="Whether belongs to Local Gang or Inter-city Gang or inter-state Gang" required></textarea>
+</div>
+
+
+
+<div class="flex2">
+
+    <div class="one">
+    <label for="text"> Area Where he opeates  </label><br/>
+    <input type="text" id="name" placeholder="Area where he operates" required>
+    </div>
+                                        
+    <div class="one">
+    <label for="text"> Name of the opposite Gang </label><br/>
+    <input type="text" id="name" placeholder="Opposite gang Name" required>
+    </div>
+                                      
+    <div class="one">
+    <label for="text"> Type of drug trafficking </label><br/>
+    <input type="text" id="name" placeholder="i.e:- Natural/Synthetic" required>
+    </div>
+    </div>
+
+
+    <div class="flex">
+        <label for="bio">Source of procurning drug's</label><br/>
+        <textarea name="bio" id="bio" rows="5" placeholder="Local vendors, vendors from Dark net other social media applications." required></textarea>
+        </div>
+
+<div class="flex">
+<label for="bio">Mode of drug peddling</label><br/>
+<textarea name="bio" id="bio" rows="5" placeholder="i.e:- Self by-hand, Local & Inetnational Courier, indian Postal Service, Delivery Partners like Swiggy, Dunzo etc,,,,," required></textarea>
+</div>
+
+
+<div class="flex2">
+
+    <div class="one">
+    <label for="text"> Mode of transportation  </label><br/>
+    <input type="text" id="name" placeholder="Bike, Car, Bus, Train,Air Ship etc,,,," required>
+    </div>
+                                        
+    <div class="one">
+    <label for="text"> Mode of financial </label><br/>
+    <input type="text" id="name" placeholder="Cash/online/crypto etc,,,,,,,," required>
+    </div>
+                                      
+    <div class="one">
+    <label for="text"> Rental owner Detail's </label><br/>
+    <input type="text" id="name" placeholder="Rental owner Detail's,,,,,," required>
+    </div>
+
+    </div>
+
+    <div class="flex2">
+
+        <div class="one">
+        <label for="text"> Consumers Detail's </label><br/>
+        <input type="text" id="name" placeholder="Consumers Detail's" required>
+        </div>
+                                            
+        <div class="one">
+        <label for="text"> Police officers and Others Who can identify the accused </label><br/>
+        <input type="text" id="name" placeholder="Police officers and others who can identify the accused,,,,," required>
+        </div>
+             
+        </div>
+
+        <div class="flex2">
+
+        <div class="flex">
+            <label for="file">Audio and Video Clips of Accused</label><br/>
+            <input type="file" id="file"  required>
+            </div>
+
+            <div class="flex">
+            <label for="file">Audio and Video Clips of Accused</label><br/>
+            <input type="file" id="file"  required>
+            </div>
+    
+        </div>
+    
+         <div class="div">
+                <input type="submit" class="submit" value="SUBMIT">
+            </div>
+
+
+           
+        </form>
+    </div>  
+</body>
+</html>
